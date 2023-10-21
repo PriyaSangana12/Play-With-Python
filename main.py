@@ -17,11 +17,13 @@ def confirmation():
         bool=False
         return bool
 
-
+#QUIZ
 def quiz():
     print("select \"Maths\" or \"Word Riddles\"")
     print("Type m for \"maths\" or r for \"Word Riddles\"")
     MorG=input()
+
+    #MATHS
     if MorG=="m":
         mathQuestion=random.choice(list)
         print(mathQuestion)
@@ -62,7 +64,7 @@ def quiz():
 
 
 
-             
+    #WORD RIDDLES         
     elif MorG=="r":
         rdQuestion=random.choice(list1)
         print(rdQuestion)
@@ -103,16 +105,16 @@ def quiz():
     
 
 
-
+#GAMING WITH NUMBERS
 def gamingWithNumbers():
     print("come on...definitely U will gonna love this")
-    print("Lets start the game")
+    print("Lets start the game🤠")
     print("select a 6 digit number")
     print("Add all the digits in that number")
     print("subtract this number from the number which u selected at starting and assume this number as x")
     print("Imagine any number secretly from 0 to 9")
     input("Type like ,if you like the game")
-    print("Great,Continue with the game...")
+    print("Great,Continue with the game...🚩")
     print("Add all 6 digits in x without ur secret number")
     print("If your secret number is not present in x then subtract ur secret number from x and add all digits in x")
     print("Tell me the answer u get now in your mind")
@@ -134,29 +136,30 @@ def gamingWithNumbers():
         print("your secret number is %d"%y5)
     else:
         print("plz do correctly and try again\n")
-    print("That's great")
-    print("Thank u for spending ur valuable time\n")
+    print("That's great🙌")
+    print("Thank u for spending ur valuable time😇\n")
 
+#TREASURE ISLAND/TREASURE HUNT
 def treasureIsland():
-    print("Welcome to Treasure Island.")
-    print("Your mission is to find the treasure.")
+    print("Welcome to Treasure Island 🚩")
+    print("Your mission is to find the treasure🤩")
     choice1 = input('You\'re at a cross road. Where do you want to go? Type "left" or "right" \n').lower()
     if choice1 == "left":
         choice2 = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
         if choice2 == "wait":
             choice3 = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n").lower()
             if choice3 == "red":
-                print("It's a room full of fire. Game Over.")
+                print("It's a room full of fire🔥Game Over.")
             elif choice3 == "yellow":
-                print("You found the treasure! You Win!")
+                print("You found the treasure! You Win!🥳🥳")
             elif choice3 == "blue":
-                print("You enter a room of beasts. Game Over.")
+                print("You enter a room of beasts😳 Game Over.")
             else:
-                print("You chose a door that doesn't exist. Game Over.")
+                print("You chose a door that doesn't exist..🧱Game Over.")
         else:
-            print("You get attacked by an angry trout. Game Over.")
+            print("You get attacked by an angry trout..😵‍💫 Game Over.")
     else:
-        print("You fell into a hole. Game Over.")
+        print("You fell into a hole..🕳️Game Over.")
 
 
 print("Hi Guys")

@@ -7,7 +7,7 @@
 <h3><strong>PYTHON</strong></h3>
 
 <div>
-<img src="screenshot.png">
+<img src="./Images/Img 1.png">
 </div>
 
 <h2>QUIZ:</h2>
